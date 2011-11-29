@@ -1,0 +1,12 @@
+{ 
+  "name": "Hide Search",
+  "version": "1.0",
+  "description": "Hide Reader's Search Bar",
+  "content_scripts": [ {
+    "matches": [ "http://www.google.com/reader/*" ],
+    "css": ["hidebar.css"]
+   }],
+   "permissions": [ "tabs", "http://www.google.com/reader/*" ]
+}
+
+ 
